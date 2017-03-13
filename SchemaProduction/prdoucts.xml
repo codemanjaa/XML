@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<productSchema xmlns="http://tempuri.org/Productschema.xsd">
+  <product>
+    <id>01</id>
+    <name>Car</name>
+    <price>2500.00</price>
+    <quantity>15</quantity>
+    <ABC-Analysis>Class A</ABC-Analysis>
+    <productgroup>01</productgroup>
+      </product>
+  
+  <product>
+    <id>02</id>
+    <name>Server Computer</name>
+    <price>3500.00</price>
+    <quantity>1</quantity>
+    <ABC-Analysis>Class B</ABC-Analysis>
+    <productgroup>15</productgroup>
+  </product>
+
+  <product>
+    <id>03</id>
+    <name>Phone</name>
+    <price>650.00</price>
+    <quantity>10</quantity>
+    <ABC-Analysis>Class C</ABC-Analysis>
+    <productgroup>16</productgroup>
+  </product>
+
+  <product>
+    <id>04</id>
+    <name>Sun glass</name>
+    <price>120.00</price>
+    <quantity>5</quantity>
+    <ABC-Analysis>Class A</ABC-Analysis>
+    <productgroup>33</productgroup>
+  </product>
+ 
+  </productSchema>
