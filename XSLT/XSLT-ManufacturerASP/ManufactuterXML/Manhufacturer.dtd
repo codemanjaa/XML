@@ -1,0 +1,9 @@
+﻿<!ELEMENT manufacturer (product*)>
+<!ELEMENT product (pname, description, pcost, pcode )>
+<!ELEMENT pname (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT pcost (#PCDATA)>
+<!ELEMENT pcode (intcode, localcode)>
+<!ELEMENT intcode (#PCDATA)>
+<!ELEMENT localcode (#PCDATA)>
+<!ATTLIST product id CDATA #REQUIRED>

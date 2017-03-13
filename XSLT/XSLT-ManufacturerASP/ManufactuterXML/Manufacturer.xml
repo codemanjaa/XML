@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="ManufacturerXSLT.xslt" type="text/xsl" ?>
+
+
+<!DOCTYPE manufacturer SYSTEM "Manufacturer.dtd">
+<manufacturer>
+
+  <product id="1">
+    <pname>phone</pname>
+    <description>Blue cover</description>
+    <pcost>120</pcost>
+    <pcode>
+      <intcode>X123</intcode>
+      <localcode>Mango</localcode>
+    </pcode>
+  </product>
+
+
+  <product id="2">
+    <pname>TV</pname>
+    <description> Green cover</description>
+    <pcost>160</pcost>
+    <pcode>
+      <intcode>TV123</intcode>
+      <localcode>Tampare</localcode>
+    </pcode>
+  </product>
+
+  <product id="3">
+    <pname>Camera</pname>
+    <description> High res</description>
+    <pcost>450</pcost>
+    <pcode>
+      <intcode>Cam123</intcode>
+      <localcode>Vaasa</localcode>
+    </pcode>
+  </product>
+
+  <product id="4">
+    <pname>Camera</pname>
+    <description> High res</description>
+    <pcost>450</pcost>
+    <pcode>
+      <intcode>Cam123</intcode>
+      <localcode> Vaasa</localcode>
+    </pcode>
+  </product>
+
+
+</manufacturer>

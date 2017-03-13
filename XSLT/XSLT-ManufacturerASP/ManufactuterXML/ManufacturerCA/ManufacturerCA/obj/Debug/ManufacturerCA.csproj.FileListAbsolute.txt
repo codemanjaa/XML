@@ -1,0 +1,6 @@
+M:\AdvancedWeb\ManufactuterXML\ManufacturerCA\ManufacturerCA\bin\Debug\ManufacturerCA.exe.config
+M:\AdvancedWeb\ManufactuterXML\ManufacturerCA\ManufacturerCA\bin\Debug\ManufacturerCA.exe
+M:\AdvancedWeb\ManufactuterXML\ManufacturerCA\ManufacturerCA\bin\Debug\ManufacturerCA.pdb
+M:\AdvancedWeb\ManufactuterXML\ManufacturerCA\ManufacturerCA\obj\Debug\ManufacturerCA.exe
+M:\AdvancedWeb\ManufactuterXML\ManufacturerCA\ManufacturerCA\obj\Debug\ManufacturerCA.pdb
+M:\AdvancedWeb\ManufactuterXML\ManufacturerCA\ManufacturerCA\obj\Debug\ManufacturerCA.csprojResolveAssemblyReference.cache
