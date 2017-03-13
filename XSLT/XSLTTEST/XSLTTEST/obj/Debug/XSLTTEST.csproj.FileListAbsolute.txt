@@ -1,0 +1,6 @@
+C:\Users\h00996\Desktop\Temp\XSLTTEST\XSLTTEST\bin\Debug\XSLTTEST.exe.config
+C:\Users\h00996\Desktop\Temp\XSLTTEST\XSLTTEST\bin\Debug\XSLTTEST.exe
+C:\Users\h00996\Desktop\Temp\XSLTTEST\XSLTTEST\bin\Debug\XSLTTEST.pdb
+C:\Users\h00996\Desktop\Temp\XSLTTEST\XSLTTEST\obj\Debug\XSLTTEST.csprojResolveAssemblyReference.cache
+C:\Users\h00996\Desktop\Temp\XSLTTEST\XSLTTEST\obj\Debug\XSLTTEST.exe
+C:\Users\h00996\Desktop\Temp\XSLTTEST\XSLTTEST\obj\Debug\XSLTTEST.pdb

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="TeacherTest.xslt" type="text/xsl"?>
+<Teachers id="Haaga-helia">
+  <teacher>
+    <name>Amir</name>
+    <lName>Dirin</lName>
+    <course>
+      <cName>AWT</cName>
+      <cDuration>4</cDuration>
+    </course>
+  </teacher>
+  <teacher>
+    <name>Kari</name>
+    <lName>Silpiö</lName>
+    <course>
+      <cName>EB</cName>
+      <cDuration>4</cDuration>
+    </course>
+  </teacher>
+  <teacher>
+    <name>Juhani</name>
+    <lName>VäliMäki</lName>
+    <course>
+      <cName>Java</cName>
+      <cDuration>2</cDuration>
+    </course>
+  </teacher>
+  
+</Teachers>
