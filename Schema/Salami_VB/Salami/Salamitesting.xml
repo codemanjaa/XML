@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Products xmlns="http://tempuri.org/Products.xsd">
+  <!--Product 1-->
+  <product>
+    <id>10</id>
+    <name>Macbook PRO 15"</name>
+    <prodetails>
+      <price>850.00</price>
+      <quantity>1</quantity>
+      <ABC-Analysis>Class A</ABC-Analysis>
+    </prodetails>
+  </product>
+  
+  <!--Product 2-->
+  <product>
+    <id>11</id>
+    <name>Macbook PRO RETINA</name>
+    <prodetails>
+      <price>15000.00</price>
+      <quantity>10</quantity>
+      <ABC-Analysis>Class B</ABC-Analysis>
+    </prodetails>       
+  </product>
+
+  <!--Product 3-->
+  <product>
+    <id>12</id>
+    <name>Chrome Book</name>
+    <prodetails>
+      <price>12000.00</price>
+      <quantity>10</quantity>
+      <ABC-Analysis>Class C</ABC-Analysis>
+    </prodetails>
+  </product>
+  
+  <!--Product 4-->
+  <product>
+    <id>13</id>
+    <name>Drone</name>
+    <prodetails>
+      <price>5500.00</price>
+      <quantity>5</quantity>
+      <ABC-Analysis>Class A</ABC-Analysis>
+    </prodetails>
+  </product>
+  
+</Products>

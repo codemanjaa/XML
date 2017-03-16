@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Products  xmlns="http://tempuri.org/VB/Products.xsd">
+  
+  <!--Product 1-->
+  <product>
+    <id>20</id>
+    <name>Audi A6</name>
+    <price>25000.00</price>
+    <quantity>1</quantity>
+    <abc-analysis>Class A</abc-analysis>
+     </product>
+
+<!--Product 2-->
+
+  <product>
+    <id>21</id>
+    <name>BMW C2</name>
+    <price>15000.00</price>
+    <quantity>1</quantity>
+    <abc-analysis>Class C</abc-analysis>
+  </product>
+
+  <product>
+    <id>22</id>
+    <name>Ferrari B16</name>
+    <price>75000.00</price>
+    <quantity>1</quantity>
+    <abc-analysis>Class C</abc-analysis>
+  </product>
+  
+  <product>
+    <id>23</id>
+    <name>RollsRoyce</name>
+    <price>85000.00</price>
+    <quantity>1</quantity>
+    <abc-analysis>Class A</abc-analysis>
+  </product>
+ 
+  
+</Products>

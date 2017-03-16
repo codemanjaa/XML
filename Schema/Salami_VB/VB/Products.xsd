@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Products"
+    targetNamespace="http://tempuri.org/VB/Products.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/VB/Products.xsd"
+    xmlns:mstns="http://tempuri.org/VB/Products.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+
+  <xs:element name="Products">
+    <xs:complexType>
+      <xs:sequence minOccurs="1" maxOccurs="4">
+        <xs:element name="product">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" type="idgen" />
+              <xs:element name="name" type="xs:string" />
+              <xs:element name="price" type="euro" />
+              <xs:element name="quantity" type="xs:decimal" />
+              <xs:element name="abc-analysis" type="abccat" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:simpleType name="idgen">
+    <xs:restriction base="xs:byte">
+      <xs:pattern value="[0-9][0-9]" />
+    </xs:restriction>
+  </xs:simpleType>
+
+
+  <xs:simpleType name="abccat">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="Class A|Class B|Class C"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="euro">
+    <xs:restriction base="xs:double">
+      <xs:pattern value="^(0|[1-9][0-9]*).[0-9][0-9]" />
+    </xs:restriction>
+  </xs:simpleType>
+
+
+
+</xs:schema>
