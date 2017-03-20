@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HomeM3Schema"
+    targetNamespace="http://tempuri.org/HomeM3Schema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/HomeM3Schema.xsd"
+    xmlns:mstns="http://tempuri.org/HomeM3Schema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <xs:element name ="Homes">
+    <xs:complexType>
+      <xs:sequence minOccurs ="1" maxOccurs="10">
+        <xs:element name="home">
+
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" type ="xs:string" />
+              <xs:element name ="squareMeter" type ="xs:decimal" />
+              <xs:element name ="roomCount" type ="counter" />
+              <xs:element name ="location" type="xs:string" />
+              <xs:element name ="price" id="price" type ="price" />
+              <xs:element name="class" type ="classtype" />
+            </xs:sequence>
+          </xs:complexType>
+          
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+    
+  </xs:element>
+  
+  
+  <!--Defining the conditios for the schma-->
+
+  <xs:simpleType name ="counter">
+    <xs:restriction base="xs:byte">
+      <xs:minInclusive value="1" ></xs:minInclusive>
+      <xs:maxInclusive value="5"></xs:maxInclusive>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name ="classtype">
+    <xs:restriction base ="xs:string">
+      <xs:enumeration value="flat" />
+      <xs:enumeration value="villa" />
+      <xs:enumeration value="rowHouse" />
+      
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="price" >
+    <xs:restriction base ="xs:double">
+      <xs:minInclusive value="0" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+</xs:schema>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Homes xmlns="http://tempuri.org/HomeM3Schema.xsd">
+  <home>
+    <id>home001</id>
+    <squareMeter>100</squareMeter>
+    <roomCount>1</roomCount>
+    <location>London</location>
+    <price>0</price>
+    <class>villa</class>
+  </home>
+</Homes>

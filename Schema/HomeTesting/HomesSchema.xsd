@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HomesSchema"
+    targetNamespace="http://tempuri.org/HomesSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/HomesSchema.xsd"
+    xmlns:mstns="http://tempuri.org/HomesSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="Homes">
+    <xs:complexType>
+      <xs:sequence minOccurs="1" maxOccurs="10">
+        <xs:element name="home">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="squareMeter" type="xs:decimal" />
+              <xs:element name="roomCount" type="xs:byte" />
+              <xs:element name="location" type="xs:string" />
+              <xs:element name="price" type="euro" />
+            </xs:sequence>
+          </xs:complexType>
+          
+        </xs:element>
+        
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  
+  <!--Defines the  roomcount-->
+  <xs:simpleType name="roomCount">
+    <xs:restriction base="xs:byte">
+      
+    </xs:restriction>
+    
+  </xs:simpleType>
+  
+  
+  <!--Defines the euro-->
+  <xs:simpleType name="euro">
+    <xs:restriction base="xs:double">
+      <xs:pattern value="^(0|[1-9][0-9]*)" />
+      <xs:minInclusive value="600" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  
+  
+  
+</xs:schema>

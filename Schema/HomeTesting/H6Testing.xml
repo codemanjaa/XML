@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Homes xmlns="http://tempuri.org/HomeMSchema.xsd">
+  <home>
+    <id>home001</id>
+    <squareMeter>120</squareMeter>
+    <roomCount>2</roomCount>
+    <location>Helsinki</location>
+    <price>2500</price>
+    <class>flat</class>
+  </home>
+</Homes>

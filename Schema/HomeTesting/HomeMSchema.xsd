@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HomeMSchema"
+    targetNamespace="http://tempuri.org/HomeMSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/HomeMSchema.xsd"
+    xmlns:mstns="http://tempuri.org/HomeMSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+    <xs:element name="Homes">
+      <xs:complexType>
+        <xs:sequence minOccurs="1" maxOccurs="10">
+          <xs:element name="home">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type ="xs:string" />
+                <xs:element name="squareMeter" type="xs:decimal" />
+                <xs:element name ="roomCount" type="xs:byte" />
+                <xs:element name ="location" type="xs:string" />
+                <xs:element name="price" type="xs:decimal" />
+                <xs:element name="class" type="classtype" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+
+    <!--Defining the id value starts with home text-->
+  <xs:simpleType name="id">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[home][0-9]*" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!--Defining the classtype-->
+  <xs:simpleType name="classtype">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="flat|villa|rowHouse" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  </xs:schema>
+
