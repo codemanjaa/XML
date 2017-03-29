@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE movies[
+  <!ELEMENT movies (movie+)> 
+  <!ELEMENT movie (name, title, date, team+)>
+  <!ELEMENT team (tname)>
+  <!ELEMENT tname (#PCDATA)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT title (#PCDATA)>
+  <!ELEMENT date (#PCDATA)>
+  <!ATTLIST date year NMTOKEN #REQUIRED >
+  <!ATTLIST date month (JAN|FEB|MAR) #REQUIRED>
+  <!ATTLIST movie isbn ID #REQUIRED>
+  <!ATTLIST movie team IDREFS #REQUIRED>
+  <!ATTLIST team id ID #REQUIRED>
+  <!ATTLIST movie type (FICTION|Comedy|Thriller) #IMPLIED>
+  <!ATTLIST movie cover NMTOKEN #IMPLIED>
+  <!ATTLIST movie source ENTITY #IMPLIED>
+  <!ENTITY  trailer SYSTEM  "http://www.university.com/results/experimenta/a.gif" NDATA gif>
+  <!NOTATION gif PUBLIC "gif viewer">
+  <!ENTITY c  "copy rights reserved to Mayura">
+]>
+
+<movies>
+  <movie isbn="_001" team ="_123" type ="FICTION" source= "trailer" >
+  <name>ICE AGE &c;</name>
+  <title>ICE AGE</title>
+  <date year="2015" month="JAN">15</date>
+  <team id="_123">
+    <tname>Shark</tname>
+  </team>
+</movie>
+
+  <movie isbn="_002" source="trailer" team="_123" type="FICTION">
+      
+  </movie>
+  </movies>
+
